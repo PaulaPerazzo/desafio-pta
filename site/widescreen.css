@@ -1,0 +1,12 @@
+body {
+    margin: 40px 114px 40px 114px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#search {
+    margin-top: 29px;
+}
