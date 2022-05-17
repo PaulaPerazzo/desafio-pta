@@ -1,6 +1,7 @@
 body {
-    margin: 80px 120px 0px 0px;
+    margin: 40px 0px 0px 0px;
     background-color: #FAFAFA;
+    width: 100%;
 }
 
 header {
@@ -14,19 +15,20 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 48px 114px;
+    padding: 32px;
+    gap: 24px;
     align-items: center;
 
-    height: 155.02px;
+    height: 128px;
     left: 0;
     right: 0;
 
     bottom: 0px;
-    width: 91%;
+    width: 100%;
+
+    margin-top: 37.69px;
 
     background: #F2F2F2;
-
-    height: 115px;
 }
 
 .header-style {
@@ -43,10 +45,11 @@ footer {
 .container {
     display: flex;
     margin-top: 279px;
-    margin-left: 80px;
+    margin-left: 32px;
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .text-container {
@@ -77,47 +80,53 @@ footer {
     display: flex;
     flex-direction: column; 
     background-color: #ffffff;
-    width: 270px;
-    height: 465px;
-    padding: 24px;
-    gap: 31px;
-    align-items: flex-start;
+    width: 175.71px;
+    height: 400px;
+    padding: 13px;
+    gap: 17px;
+    align-items: center;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
-    
+    margin-right: 17.68px;
+    margin-bottom: 18px;
 }
 
 #name {
+    width: 149.19px;
+    height: 22px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 17.6814px;
+    line-height: 22px;
     color: #292929;
     margin: 0;
 }
 
 #description {
-    width: 270px;
-    height: 40px;
+    width: 149.19px;
+    height: 22px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 8.84068px;
+    line-height: 11px;
+
     color: #606060;
     margin: 0;
 }
 
 #price {
-    width: 89px;
-    height: 39px;
+    width: 49px;
+    height: 16px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 13.261px;
+    line-height: 16px;
 
     color: #000000;
 
@@ -127,6 +136,8 @@ footer {
     border-radius: 8px;
 
     margin: 0;
+
+    justify-content: flex-start;
 }
 
 #small-ad {
@@ -135,15 +146,15 @@ footer {
     align-items: center;
     justify-content: center;
 
-    width: 240px;
-    height: 240px;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 32px;
-    
+    width: 175.71px;
+    height: 200px;
+    left: 225.39px;
+    top: 170px;
+    margin-bottom: 25px;
+
     background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
-    border-radius: 16px;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
 }
 
 #search {
@@ -182,16 +193,18 @@ footer {
 #footer-text {
     width: 217px;
     height: 15px;
-
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
 
+    margin-left: 50px;
+
     color: #292929;
 
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 #footer-logo {
@@ -206,4 +219,5 @@ footer {
     justify-content: space-between;
     width: 35px;
     height: 35px;
+    margin-left: 24px;
 }
