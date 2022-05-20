@@ -175,7 +175,6 @@ footer {
     width: 14px;
     height: 14px;
     padding: 8px 14px;
-    /* gap: 16px; */
     display: flex;
     position: center;
 }
@@ -203,9 +202,7 @@ footer {
     margin-left: 50px;
 
     color: #292929;
-
-    /* justify-content: center; */
-}
+ }
 
 #footer-logo {
     display: none;
