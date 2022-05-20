@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="../desafio-pta/site/widescreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="../desafio-pta/site/smallscreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 750px)" href="../desafio-pta/site/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="../desafio-pta/site/smallscreen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
@@ -18,9 +19,14 @@
             <img src="../desafio-pta/assets/Vector.png" alt="">
         </div>
 
-        <div id="search">
+        <!-- <div id="search">
             <div id="icon"><img src="../desafio-pta/assets/icon.png" alt="icon de lupa"></div>
             <p id="search-description">Procure seu sorvete</p>
+        </div> -->
+
+        <div class="input-icons">
+            <i class="fa fa-search icon"></i>
+            <input id="search" type="text" placeholder="Procure seu sorvete" maxlength="60">
         </div>
     </header>
     
