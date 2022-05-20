@@ -18,11 +18,11 @@ footer {
     align-items: center;
 
     height: 155.02px;
-    left: 0;
+    left: 110px;
     right: 0;
 
     bottom: 0px;
-    width: 91%;
+    width: 92.5%;
 
     background: #F2F2F2;
 
@@ -55,7 +55,8 @@ footer {
 .footer-icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
+    margin-left: 90px;
 }
 
 #search {
